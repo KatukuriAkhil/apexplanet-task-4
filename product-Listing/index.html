@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhil's Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="banner">
+        <h1>🛍️ Akhil's Online Store</h1>
+        <p>Find the best products at affordable prices.</p>
+    </div>
+
+    <div class="controls">
+
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Shoes">Shoes</option>
+            <option value="Clothing">Clothing</option>
+        </select>
+
+        <select id="sortOption">
+            <option value="default">Sort By</option>
+            <option value="priceLow">Price Low to High</option>
+            <option value="priceHigh">Price High to Low</option>
+            <option value="rating">Highest Rating</option>
+        </select>
+
+    </div>
+
+    <div id="products" class="products"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
